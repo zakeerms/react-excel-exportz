@@ -7,6 +7,13 @@ yarn-error.log*
 lerna-debug.log*
 .pnpm-debug.log*
 
+# lock files
+package-lock.json
+yarn.lock
+
+.DS_Store
+.idea/
+
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
@@ -21,6 +28,7 @@ lib-cov
 
 # Coverage directory used by tools like istanbul
 coverage
+coverage/
 *.lcov
 
 # nyc test coverage
