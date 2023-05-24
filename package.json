@@ -1,6 +1,6 @@
 {
   "name": "react-excel-exportz",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "types": "types/index.d.ts",
   "description": "Export React Dataset to Excel with styled columns and rows",
@@ -22,7 +22,7 @@
   "homepage": "https://github.com/zakeerms/react-excel-exportz#readme",
   "dependencies": {
     "file-saver": "1.3.3",
-    "tempa-xlsx": "0.8.20"
+    "tempa-xlsx": "0.0.1"
   },
   "devDependencies": {
     "@commitlint/cli": "6.1.3",
@@ -52,7 +52,7 @@
     "react": "16.0.0",
     "react-dom": "16.0.1",
     "standard-version": "^4.4.0",
-    "xlsx": "^0.18.5"
+    "xlsx": "^0.14.0"
   },
   "husky": {
     "hooks": {
